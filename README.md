@@ -21,3 +21,5 @@ More information can be found [here](https://creativecommons.org/licenses/by-nc-
 
 ## Contributing
 All merge requests are welcome! Be sure that your local version is always up-to-date with this one before pushing!
+[These amazing guys](https://github.com/MalitoCh4n/UwU-discord-bot/graphs/contributors) did a really good job with the project!
+I hope to see you too sometimes soon
