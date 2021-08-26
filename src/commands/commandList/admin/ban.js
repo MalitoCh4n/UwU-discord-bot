@@ -32,9 +32,8 @@ module.exports = new CommandInterface({
 		}
 
 		reason = reason.join(" ");
-		if (reason && reason!="") {
+		if (reason && reason!="")
 			reason = "\n**<:blank:427371936482328596> | Reason:** "+reason;
-		}
 
 		const sqlUsers = [];
 		users.forEach(user => {
@@ -68,12 +67,14 @@ module.exports = new CommandInterface({
 		success.forEach(user => {
 			text += `[${user.id}] ${user.username}#${user.discriminator}\n`;
 		});
+
 		if (successGuild.length) {
 			text += `\n${banEmoji} **|** I have banned ${successGuild.length} guilds:\n`;
 			successGuild.forEach(guild=> {
 				text += `[${guild.id}] ${guild.name}\n`;
 			});
 		}
+
 		if (failed.length || dmFailed.length) {
 			text += `\n${banEmoji} **|** I could not DM these users:\n`
 			text += failed.join('\n') + '\n';
@@ -81,10 +82,12 @@ module.exports = new CommandInterface({
 				text += `[${user.id}] ${user.username}#${user.discriminator}\n`;
 			});
 		}
-		if (reason) {
+
+		if (reason)
 			text += reason
-		}
-		p.send(text);
+		
+
+		await p.send(text);
 	}
 
 })
