@@ -46,12 +46,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ChristopherBThai/Discord-OwO-Bot.git"
+    "url": "git+https://github.com/MalitoCh4n/UwU-discord-bot.git"
   },
-  "author": "Christopher Thai",
+  "author": "MalitoCh4n",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ChristopherBThai/Discord-OwO-Bot/issues"
+    "url": "https://github.com/MalitoCh4n/UwU-discord-bot/issues"
   },
-  "homepage": "https://github.com/ChristopherBThai/Discord-OwO-Bot#readme"
+  "homepage": "https://github.com/MalitoCh4n/UwU-discord-bot#readme"
 }

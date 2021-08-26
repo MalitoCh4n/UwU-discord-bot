@@ -1,9 +1,4 @@
-/*
- * OwO Bot for Discord
- * Copyright (C) 2019 Christopher Thai
- * This software is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
- * For more information, see README.md and LICENSE
-  */
+
 
 const cards = ["<:cardback:457084762230751254>",
 	"<:as:457412291457974272>","<:2s:457412287372722176>","<:3s:457412291382738954>","<:4s:457412290988343296>","<:5s:457412291059646465>","<:6s:457412291303047208>","<:7s:457412291302916096>","<:8s:457412291004989441>","<:9s:457412291378413578>","<:10s:457412291093069826>","<:js:457412291881598988>","<:qs:457412292007690251>","<:ks:457412292015816720>",

@@ -1,9 +1,4 @@
-/*
- * OwO Bot for Discord
- * Copyright (C) 2019 Christopher Thai
- * This software is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
- * For more information, see README.md and LICENSE
-  */
+
 
 const whitelist = ['409959187229966337','420104212895105044','552384921914572802']
 const modChannel = ["471579186059018241","596220958730223619","645501936036216862","759637235237650440"];
