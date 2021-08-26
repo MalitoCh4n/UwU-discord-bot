@@ -25,8 +25,6 @@ module.exports = new CommandInterface({
 			p.errorMsg(", Invalid user id");
 			return;
 		}
-		let sql = "UPDATE IGNORE timeout SET penalty = 0"+(hasTime ? ", prev_penalty = "+time : "")+" WHERE id = "+p.args[0]+";";
-		let result = await p.query(sql);
 
 		if(user = await p.sender.msgUser(p.args[0],"**🙇 |** Your penalty has been lifted by an admin! Sorry for the inconvenience!")){
 			if (user.dmError) {
